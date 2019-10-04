@@ -6,8 +6,7 @@
 
 ;;; Create two windows and bounce many colored balls in them.
 
-;(import (github.com/gambit/xlib)) ;; import Xlib procedures and variables
-(import (xlib)) ;; import Xlib procedures and variables
+(import (github.com/gambit/xlib)) ;; import Xlib procedures and variables
 
 (define win-width   600)
 (define win-height  401)
