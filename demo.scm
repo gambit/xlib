@@ -230,8 +230,8 @@
                    black
                    white))
                  (font
-                  (XLoadQueryFont x11-display
-                                  "fixed"))
+                  (or (XLoadQueryFont x11-display "lucidasans-12")
+                      (XLoadQueryFont x11-display "fixed")))
                  (gc-text
                   (XCreateGC x11-display window 0 #f)))
 
