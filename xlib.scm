@@ -15,6 +15,10 @@
 
 (##meta-info pkg-config "x11")
 
+;; help pkg-config find the x11.pc file on macOS and other platforms
+(##meta-info pkg-config-path "/opt/X11/lib/pkgconfig")
+(##meta-info pkg-config-path "/usr/local/X11/lib/pkgconfig")
+
 (##namespace ("github.com/gambit/xlib#"))        ;; in github.com/gambit/xlib#
 (##include "~~lib/_prim#.scm")                   ;; map fx+ to ##fx+, etc
 (##include "~~lib/_gambit#.scm")                 ;; for macro-check-procedure,
