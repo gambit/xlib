@@ -1,2 +1,2 @@
 # xlib
-Gambit library for X Windows's Xlib
+Gambit library for X Windows' Xlib
